@@ -21,7 +21,7 @@ const queryClient = new QueryClient();
 const App = () => {
   // Set default title (simple approach)
   useEffect(() => {
-    document.title = "My Awesome Portfolio"; // Change this to your desired title
+    document.title = "Blessing's Awesome Portfolio"; // Change this to your desired title
   }, []);
 
   return (
