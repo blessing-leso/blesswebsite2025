@@ -102,24 +102,24 @@ const SkillsPage = () => {
             Tools & Technologies
           </h2>
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-          <img src="src/pictures/c.228x256.png"></img>
-          <img src="src/pictures/file-type-python.256x254.png"></img>
-          <img src="src/pictures/microsoft-365.218x256.png"></img> 
-          <img src="src/pictures/trio.png"></img>
-          <img src="src/pictures/delphi.256x256.png"></img>
-          <img src="src/pictures/openai (1).png"></img>
+          <img src="/pictures/c.228x256.png"></img>
+          <img src="/pictures/file-type-python.256x254.png"></img>
+          <img src="/pictures/microsoft-365.218x256.png"></img> 
+          <img src="/pictures/trio.png"></img>
+          <img src="/pictures/delphi.256x256.png"></img>
+          <img src="/pictures/openai (1).png"></img>
           
          
                       
-          <img src="src/pictures/figma.171x256.png"></img>
-          <img src="src/pictures/mysql-original-wordmark.256x133.png"></img>
-          <img src="src/pictures/linux-tux.222x256.png"></img>
-          <img src="src/pictures/programming-language-aspnet.256x169.png"></img>
-          <img src="src/pictures/firebase (2).png"></img>
-          <img src="src/pictures/aws (2).png"></img>
-          <img src="src/pictures/react (1).png"></img>
-          <img src="src/pictures/php (1).png"></img>
-          <img src="src/pictures/azure (1).png"></img>
+          <img src="/pictures/figma.171x256.png"></img>
+          <img src="/pictures/mysql-original-wordmark.256x133.png"></img>
+          <img src="/pictures/linux-tux.222x256.png"></img>
+          <img src="/pictures/programming-language-aspnet.256x169.png"></img>
+          <img src="/pictures/firebase (2).png"></img>
+          <img src="/pictures/aws (2).png"></img>
+          <img src="/pictures/react (1).png"></img>
+          <img src="/pictures/php (1).png"></img>
+          <img src="/pictures/azure (1).png"></img>
 
   
           </div>

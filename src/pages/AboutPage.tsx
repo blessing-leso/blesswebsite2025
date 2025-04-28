@@ -24,7 +24,7 @@ const AboutPage = () => {
               {/* Image placeholder - replace with your own image */}
               <div className="relative w-full h-80 bg-light-cyan rounded-lg overflow-hidden border border-gray-200">
                 <div className="w-full h-full flex items-center justify-center">
-                  <p className="text-navy"><img src="src\pictures\blessieCorporate.jpg"></img></p>
+                  <p className="text-navy"><img src="\pictures\blessieCorporate.jpg"></img></p>
                 </div>
               </div>
             </div>

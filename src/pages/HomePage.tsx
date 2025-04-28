@@ -37,7 +37,7 @@ const HomePage = () => {
               {/* Image placeholder - replace with your own image */}
               <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-white">
                 <div className="w-full h-full bg-light-cyan flex items-center justify-center">
-                  <p className="text-navy"><img src="src\pictures\blueDress.jpg"></img></p>
+                  <p className="text-navy"><img src="\pictures\blueDress.jpg"></img></p>
                 </div>
               </div>
             </div>

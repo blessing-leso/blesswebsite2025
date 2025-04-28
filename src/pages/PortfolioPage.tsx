@@ -11,7 +11,7 @@ const PortfolioPage = () => {
       id: 1,
       title: "AI-Powered Content Creator App",
       category: "Web",
-      image: "/src/pictures/AIapp.png",
+      image: "/pictures/AIapp.png",
       description: "Content Creator AI is a web application built to assist individuals and businesses in generating high-quality social media content with ease. Users input a topic, theme, or target audience, and the app leverages OpenAI’s language models to instantly create engaging captions, post ideas, and creative marketing copy.",
       technologies: ["React", "Tailwind CSS", "TypeScript","Node.js", "Express.js", "MongoDB", "OpenAI API"],
       codeUrl: "https://github.com/blessing-leso/PostMuse-AI"
@@ -20,7 +20,7 @@ const PortfolioPage = () => {
       id: 2,
       title: "CRM Company Dashboard",
       category: "Web",
-      image: "/src/pictures/crm.png",
+      image: "/pictures/crm.png",
       description: "TgeNeo Breed CRM Dashboard is an enterprise management platform designed to give businesses real-time insights into revenue, employee performance, client management, and sales analytics. With a clean UI and intuitive navigation, users can track company performance, manage leads and clients, oversee employee activity, monitor sales, and stay updated through alerts and notifications — all from one central dashboard.",
       technologies: ["Next.js", "Tailwind", "Vite", "MongoDB", "Express.js","Node.js", "REST API"],
       codeUrl: "https://github.com/blessing-leso/Neo-Breed-frontend-dashboard"
@@ -29,7 +29,7 @@ const PortfolioPage = () => {
       id: 3,
       title: "PetPal.co Mobile App",
       category: "Mobile",
-      image: "/src/pictures/Doggie.jpg",
+      image: "/pictures/Doggie.jpg",
       description: "PetPal AI is a virtual veterinary assistant web app designed to help pet owners easily assess their pets’ health, nutrition, and training needs. Users can describe symptoms or upload images, and the app uses OpenAI’s GPT-4 Vision and language models to analyze the input and provide detailed, AI-generated feedback. PetPal AI combines natural language understanding with image recognition to offer quick advice, potential diagnoses, and care recommendations.",
       technologies: ["React", "Tailwind CSS", "TypeScript","Node.js", "Express.js", "MongoDB", "OpenAI API", "Lucide-react"],
       codeUrl: "https://github.com/blessing-leso/PetPal.co"
