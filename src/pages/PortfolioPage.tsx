@@ -21,7 +21,7 @@ const PortfolioPage = () => {
       title: "CRM Company Dashboard",
       category: "Web",
       image: "/pictures/crm.png",
-      description: "TgeNeo Breed CRM Dashboard is an enterprise management platform designed to give businesses real-time insights into revenue, employee performance, client management, and sales analytics. With a clean UI and intuitive navigation, users can track company performance, manage leads and clients, oversee employee activity, monitor sales, and stay updated through alerts and notifications — all from one central dashboard.",
+      description: "The Neo Breed CRM Dashboard is an enterprise management platform designed to give businesses real-time insights into revenue, employee performance, client management, and sales analytics. With a clean UI and intuitive navigation, users can track company performance, manage leads and clients, oversee employee activity, monitor sales, and stay updated through alerts and notifications — all from one central dashboard.",
       technologies: ["Next.js", "Tailwind", "Vite", "MongoDB", "Express.js","Node.js", "REST API"],
       codeUrl: "https://github.com/blessing-leso/Neo-Breed-frontend-dashboard"
     },
