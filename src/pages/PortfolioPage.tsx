@@ -9,11 +9,11 @@ const PortfolioPage = () => {
   const projects = [
     {
       id: 1,
-      title: "AI-Powered Content Creator App",
+      title: "Pomodo - Student's Productivity App",
       category: "Web",
-      image: "/pictures/AIapp.png",
-      description: "Content Creator AI is a web application built to assist individuals and businesses in generating high-quality social media content with ease. Users input a topic, theme, or target audience, and the app leverages OpenAI’s language models to instantly create engaging captions, post ideas, and creative marketing copy.",
-      technologies: ["React", "Tailwind CSS", "TypeScript","Node.js", "Express.js", "MongoDB", "OpenAI API"],
+      image: "/pictures/Pomodo.jpg",
+      description:"Pomodo is a student-friendly productivity app that helps you stay on top of your tasks. You can add, edit, and track tasks with due dates and priority levels. The dashboard shows your progress with easy-to-read charts, showing what’s done and what’s still pending. It’s a simple way to stay organized and focused.",
+      technologies: ["React", "Tailwind CSS", "TypeScript","Node.js", "Express.js", "Firebase"],
       codeUrl: "https://github.com/blessing-leso/PostMuse-AI"
     },
     {

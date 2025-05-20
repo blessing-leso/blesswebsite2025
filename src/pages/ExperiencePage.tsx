@@ -85,7 +85,7 @@ const ExperiencePage = () => {
             company="Univerasity of Johannesburg"
             description="Developed responsive websites and web applications to showcase to students.
                           Tutoring students programming in languages such as JavaScript, HTML & CSS, MySQL, C# etc.
-                          Middle man betwent Students and Lecturer.
+                          Middle man between Students and Lecturer.
                           Assisting Lecturer with Marks.
                           Tutoring Students about Software Development and IT in the workplace."
             isLeft={false}
