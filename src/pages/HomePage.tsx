@@ -17,7 +17,7 @@ const HomePage = () => {
               Hi, I'm <span className="text-magenta">Blessing</span> <span className="text-cyan">Leso</span>
             </h1>
             <p className="text-xl text-gray-700 mb-8">
-              Software Developer & Designer creating beautiful digital experiences
+              FullStack Developer & UI/UX Designer creating beautiful digital experiences
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contact" className="px-6 py-3 bg-magenta text-white rounded-md font-medium hover:bg-opacity-90 transition-all">
