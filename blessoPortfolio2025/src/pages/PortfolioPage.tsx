@@ -9,50 +9,31 @@ const PortfolioPage = () => {
   const projects = [
     {
       id: 1,
-      title: "Telco SA – Customer Revenue Dashboard",
+      title: "AI-Powered Content Creator App",
       category: "Web",
-      image: "/pictures/telco.png",
-      description:"An interactive business intelligence dashboard developed in Microsoft Excel to analyze revenue performance across regions, product categories, sales representatives, and quarterly periods.The solution leverages Pivot Tables, Calculated Fields, and dynamic KPI cards to compute and display key metrics including Total Revenue, Profit Margin, and Average Order Value (AOV). All KPIs are dynamically linked to Pivot data, enabling automatic updates when the dataset is refreshed. The dashboard transforms raw transactional data into structured visual insights through bar charts, column charts, line charts, and summary indicators, supporting data-driven performance monitoring and strategic decision-making.",
-      technologies: ["Microsoft Excel", "GitHub", "OneDrive"],
-      codeUrl: "https://github.com/blessing-leso/Telco-SA-Retail-Analysis/raw/refs/heads/main/sa_retail_sales%20(version%202).xlsx"
+      image: "/src/pictures/AIapp.png",
+      description: "Content Creator AI is a web application built to assist individuals and businesses in generating high-quality social media content with ease. Users input a topic, theme, or target audience, and the app leverages OpenAI’s language models to instantly create engaging captions, post ideas, and creative marketing copy.",
+      technologies: ["React", "Tailwind CSS", "TypeScript","Node.js", "Express.js", "MongoDB", "OpenAI API"],
+      codeUrl: "https://github.com/blessing-leso/PostMuse-AI"
     },
     {
       id: 2,
-      title: "Kailub Siban Web App",
+      title: "CRM Company Dashboard",
       category: "Web",
-      image: "/pictures/siban.jpg",
-      description: "Sîbān is a community-driven platform that connects food donors with NGOs to reduce food waste and fight food insecurity. Businesses can register and submit surplus food through a simple form, while verified NGOs access real-time surplus updates via WhatsApp integration.The platform streamlines the process of donor registration, surplus verification, and NGO collection coordination. In cases where food is no longer consumable, Sîbān promotes sustainable trench bed composting to support community gardens.",
-      technologies: ["React", "Next.js", "Tailwind CSS","API Integration", "Firebase", "Google Forms", "WhatsApp Business API", "n8n Automation"],
-      codeUrl: "https://kailubsibanapp.netlify.app"
+      image: "/src/pictures/crm.png",
+      description: "TgeNeo Breed CRM Dashboard is an enterprise management platform designed to give businesses real-time insights into revenue, employee performance, client management, and sales analytics. With a clean UI and intuitive navigation, users can track company performance, manage leads and clients, oversee employee activity, monitor sales, and stay updated through alerts and notifications — all from one central dashboard.",
+      technologies: ["Next.js", "Tailwind", "Vite", "MongoDB", "Express.js","Node.js", "REST API"],
+      codeUrl: "https://github.com/blessing-leso/Neo-Breed-frontend-dashboard"
     },
     {
       id: 3,
-      title: "Pomodo - Student's Productivity App",
-      category: "Mobile",
-      image: "/pictures/Pomodo.jpg",
-      description:"Pomodo is a student-friendly productivity app that helps you stay on top of your tasks. You can add, edit, and track tasks with due dates and priority levels. The dashboard shows your progress with easy-to-read charts, showing what’s done and what’s still pending. It’s a simple way to stay organized and focused. By incorporating an integrated Pomodoro timer directly into the task interface, the app bridges the gap between planning and execution to actively prevent burnout. The system also utilizes local storage to ensure that student data remains persistent and accessible offline, providing a reliable organizational hub that adapts to any study environment.",
-      technologies: ["React", "Tailwind CSS", "TypeScript","Node.js", "Express.js", "Firebase"],
-      codeUrl: "https://pomodo-productivity-hub.netlify.app"
-    },
-    {
-      id: 4,
       title: "PetPal.co Mobile App",
       category: "Mobile",
-      image: "/pictures/Doggie.jpg",
-      description: "PetPal AI is a virtual veterinary assistant web app designed to help pet owners easily assess their pets’ health, nutrition, and training needs. Users can describe symptoms or upload images, and the app uses OpenAI’s GPT-4 Vision and language models to analyze the input and provide detailed, AI-generated feedback. PetPal AI combines natural language understanding with image recognition to offer quick advice, potential diagnoses, and care recommendations. Please note: Currently migrating to GPT-4o; photo scanning feature is in beta",
+      image: "/src/pictures/Doggie.jpg",
+      description: "PetPal AI is a virtual veterinary assistant web app designed to help pet owners easily assess their pets’ health, nutrition, and training needs. Users can describe symptoms or upload images, and the app uses OpenAI’s GPT-4 Vision and language models to analyze the input and provide detailed, AI-generated feedback. PetPal AI combines natural language understanding with image recognition to offer quick advice, potential diagnoses, and care recommendations.",
       technologies: ["React", "Tailwind CSS", "TypeScript","Node.js", "Express.js", "MongoDB", "OpenAI API", "Lucide-react"],
-      codeUrl: "https://petpaldetect.netlify.app"
-    },
-    {
-      id: 5,
-      title: "CRM Company Dashboard",
-      category: "Web",
-      image: "/pictures/crm.png",
-      description: "The Neo Breed CRM Dashboard is an enterprise management platform designed to give businesses real-time insights into revenue, employee performance, client management, and sales analytics. With a clean UI and intuitive navigation, users can track company performance, manage leads and clients, oversee employee activity, monitor sales, and stay updated through alerts and notifications — all from one central dashboard.",
-      technologies: ["Next.js", "Tailwind", "Vite", "MongoDB", "Express.js","Node.js", "REST API"],
-      codeUrl: "https://github.com/blessing-leso/Neo-Breed-frontend-dashboard"
+      codeUrl: "https://github.com/blessing-leso/PetPal.co"
     }
-    
   ];
 
   const filteredProjects = activeCategory === "All"

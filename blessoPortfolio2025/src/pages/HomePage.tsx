@@ -14,10 +14,10 @@ const HomePage = () => {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center z-10">
           <div className="md:w-1/2 mb-10 md:mb-0 animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold text-navy mb-4">
-              Hi, I'm <span className="text-magenta">Blessing</span> <span className="text-cyan">Leso,</span>
+              Hi, I'm <span className="text-magenta">Blessing</span> <span className="text-cyan">Leso</span>
             </h1>
             <p className="text-xl text-gray-700 mb-8">
-              A FullStack Developer and Data Analyst creating beautiful digital experiences authentically. I specialize in building responsive web applications and analyzing data to drive informed decisions. Let's build something amazing together! 
+              Web Developer & Designer creating beautiful digital experiences
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contact" className="px-6 py-3 bg-magenta text-white rounded-md font-medium hover:bg-opacity-90 transition-all">
@@ -37,7 +37,7 @@ const HomePage = () => {
               {/* Image placeholder - replace with your own image */}
               <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-white">
                 <div className="w-full h-full bg-light-cyan flex items-center justify-center">
-                  <p className="text-navy"><img src="\pictures\gradpic11.png"></img></p>
+                  <p className="text-navy"><img src="src\pictures\blueDress.jpg"></img></p>
                 </div>
               </div>
             </div>

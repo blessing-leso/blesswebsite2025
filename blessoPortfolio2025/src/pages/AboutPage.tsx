@@ -24,7 +24,7 @@ const AboutPage = () => {
               {/* Image placeholder - replace with your own image */}
               <div className="relative w-full h-80 bg-light-cyan rounded-lg overflow-hidden border border-gray-200">
                 <div className="w-full h-full flex items-center justify-center">
-                  <p className="text-navy"><img src="\pictures\blessieCorporate.jpg"></img></p>
+                  <p className="text-navy"><img src="src\pictures\blessieCorporate.jpg"></img></p>
                 </div>
               </div>
             </div>
@@ -42,7 +42,7 @@ const AboutPage = () => {
                 <div className="bg-light-cyan w-12 h-12 rounded-full flex items-center justify-center mb-4">
                   <Briefcase className="text-cyan" size={24} />
                 </div>
-                <h3 className="text-xl font-bold text-navy mb-2">Data Analyst</h3>
+                <h3 className="text-xl font-bold text-navy mb-2">Business Analyst</h3>
                 <p className="text-gray-600">Dedicated to delivering high-quality work that exceeds expectations.</p>
               </div>
               
