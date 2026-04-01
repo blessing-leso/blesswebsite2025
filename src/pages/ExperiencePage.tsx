@@ -78,8 +78,8 @@ const ExperiencePage = () => {
 
           <TimelineItem 
             year=" Jul 2019 - Nov 2019"
-            title="Examination Assistant"
-            company="StartUp Innovations"
+            title="Quality Assurer & Examination Assistant"
+            company="Department of Higher Education and Training (DHET)"
             description="Quality assuring
                         Batch controlling of examination scripts.
                         Receive, Quality assure and distribute scripts to marking teams.
