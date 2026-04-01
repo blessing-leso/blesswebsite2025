@@ -66,7 +66,7 @@ const ExperiencePage = () => {
           <TimelineItem 
             year="March 2025 - May 2025"
             title="Data Analyst Intern"
-            company="Synergy Wellness & Natural Medicines"
+            company="Synergy Wellness ZA"
             description="Optimized data cleaning workflows using Pandas, reducing data retrieval
                           time by 40%.
                           Contributed to requirement clarification and solution documentation for
