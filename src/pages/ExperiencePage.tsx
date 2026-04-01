@@ -64,6 +64,21 @@ const ExperiencePage = () => {
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-200 hidden md:block"></div>
           
           <TimelineItem 
+            year="March 2025 - May 2025"
+            title="Data Analyst Intern"
+            company="Synergy Wellness & Natural Medicines"
+            description="Optimized data cleaning workflows using Pandas, reducing data retrieval
+                          time by 40%.
+                          Contributed to requirement clarification and solution documentation for
+                          business processes through actionable insights.
+                          Managed data in Odoo(ERP) Loading inventory data as part of data
+                          governance.
+                          Creating lightweight APIs to retrieve store information nationwide using
+                          JSON and Flask."
+            isLeft={true}
+            icon="work"
+          />
+          <TimelineItem 
             year="Aug 2023 - Nov 2023"
             title="Software Development Student Assistant"
             company="Univerasity of Johannesburg"
