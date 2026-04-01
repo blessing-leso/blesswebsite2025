@@ -64,7 +64,20 @@ const ExperiencePage = () => {
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-200 hidden md:block"></div>
           
           <TimelineItem 
-            year=" Nov 2019 - Aug 2020"
+            year="Aug 2023 - Nov 2023"
+            title="Software Development Student Assistant"
+            company="Univerasity of Johannesburg"
+            description="Developed responsive websites and web applications to showcase to students.
+                          Tutoring students programming in languages such as JavaScript, HTML & CSS, MySQL, C# etc.
+                          Middle man between Students and Lecturer.
+                          Assisting Lecturer with Marks.
+                          Tutoring Students about Software Development and IT in the workplace."
+            isLeft={false}
+            icon="work"
+          />
+
+          <TimelineItem 
+            year=" Jul 2019 - Nov 2019"
             title="Examination Assistant"
             company="StartUp Innovations"
             description="Quality assuring
@@ -78,50 +91,25 @@ const ExperiencePage = () => {
             isLeft={true}
             icon="work"
           />
-          
+
           <TimelineItem 
-            year="Aug 2023 - Nov 2023"
-            title="Software Development Student Assistant"
-            company="Univerasity of Johannesburg"
-            description="Developed responsive websites and web applications to showcase to students.
-                          Tutoring students programming in languages such as JavaScript, HTML & CSS, MySQL, C# etc.
-                          Middle man between Students and Lecturer.
-                          Assisting Lecturer with Marks.
-                          Tutoring Students about Software Development and IT in the workplace."
-            isLeft={false}
-            icon="work"
-          />
-          
-          <TimelineItem 
-          year="March 2025"
-          title="IT Intern"
-          company="SynergyWellness & Natural Medicines"
-          description="Performing data cleaning on CSV files of products using Pandas.
-                      Showcasing how I develop web apps by integrating API keys from AI agents, such as Google AI Studio and Gemini, in VS Code using plugins like Cline.
-                      Creating JSON files and FastAPIs to retrieve data from the Odoo database and display it on the website.
-                      Designing and editing landing pages to be displayed on the website."
-            
-            isLeft={true}
-            icon="work"
-          />
-          
-          <TimelineItem 
-            year="2020 - 2023"
-            title="Diploma in Business Information Technology"
+            year="2025"
+            title="BTech in Business Information Technology"
             company="University of Johannesburg"
-            description="Studied BIT with a focus on building my skillset in various programming languages from HTML all the way to C++. Participated in various hackathons and coding competitions which I won medals for them such as the BRICS Skills Challenge Cyber Security 2022 BRICS Skills Challenge Internet Of Things 2023."
+            description="I am advancing my skillset in Human-Computer Interaction (HCI), designing intuitive and user-friendly interfaces. I am deepening my understanding of Software Requirements, effectively gathering and analyzing user needs. I am refining my skills in Software Testing to ensure the quality and reliability of software. I am strengthening my proficiency in Advanced Databases, enhancing my ability to manage complex data systems. I am also mastering Advanced Programming techniques to write efficient and scalable code."
             isLeft={false}
             icon="education"
           />
 
-          <TimelineItem 
-            year="2025"
-            title="AdvDip in Business Information Technology"
+           <TimelineItem 
+            year="2020 - 2023"
+            title="Diploma in Business Information Technology"
             company="University of Johannesburg"
-            description="I am advancing my skillset in Human-Computer Interaction (HCI), designing intuitive and user-friendly interfaces. I am deepening my understanding of Software Requirements, effectively gathering and analyzing user needs. I am refining my skills in Software Testing to ensure the quality and reliability of software. I am strengthening my proficiency in Advanced Databases, enhancing my ability to manage complex data systems. I am also mastering Advanced Programming techniques to write efficient and scalable code."
+            description="Studied BIT with a focus on building my skillset in various programming languages from HTML all the way to C++. Participated in various hackathons and coding competitions which I won medals for them such as the BRICS Skills Challenge Cyber Security 2022 BRICS Skills Challenge Internet Of Things 2023."
             isLeft={true}
             icon="education"
-          />
+          /> 
+
         </div>
       </div>
     </div>
